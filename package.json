@@ -1,0 +1,25 @@
+{
+  "name": "institute",
+  "version": "1.0.0",
+  "description": "Institutes Microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout=10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rock-Script/institute.git"
+  },
+  "keywords": [
+    "institutes"
+  ],
+  "author": "Yogesh Murdeshwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rock-Script/institute/issues"
+  },
+  "homepage": "https://github.com/Rock-Script/institute#readme",
+  "dependencies": {
+    "template": "./template"
+  }
+}
