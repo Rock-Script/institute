@@ -3,7 +3,7 @@ const InstituteService = require('./institutes.service');
 module.exports.postInstitute = async (req, res, next) => {
     const data = await InstituteService.addInstitute(req.body);
     return {
-        status: 200,
+        status: 201,
         data,
         message: 'Successfully created institute'
     }
